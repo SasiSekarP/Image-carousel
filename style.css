@@ -1,0 +1,75 @@
+*,*::after,*::before{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.imgDisplay{
+    width: 500px;
+    height: 300px;
+    margin: 1rem auto ;
+    border: 1px solid black;
+}
+
+.imgDisplay1{
+    background-image: url('firstImage.jpg');
+    background-size: cover;
+}
+
+.imgDisplay2{
+    background-image: url('secondImage.webp');
+    background-size: cover;
+}
+
+.imgDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDisplay3{
+    background-image: url('thirdImage.jpg');
+    background-size: cover;
+}
+
+.dotContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(215, 212, 212);
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.leftArrow,.rightArrow{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.leftArrow:hover,.rightArrow:hover,.dot:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.imageContainer{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all ease-in-out 2s;
+}
