@@ -16,8 +16,6 @@ let IndexArr = [0, 1, 2];
 
 showImage(0);
 
-setInterval(changeImage, 5000);
-
 // function area
 
 function changeImage() {
@@ -37,6 +35,8 @@ function showImage(a) {
             caseShowFn(2);
             break;
     }
+
+    setInterval(changeImage, 5000);
 }
 
 function caseShowFn(a) {
