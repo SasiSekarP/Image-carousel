@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Kavoon&display=swap');
+
 *,*::after,*::before{
     margin: 0px;
     box-sizing: border-box;
 }
 
 body{
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: rgb(34, 76, 76);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,10 +31,17 @@ body{
     background-size: cover;
 }
 
+h2{
+    font-family: 'Kavoon', cursive;
+    color: white;
+}
+
 .imgDisplay{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: white 1px solid;
+    box-shadow: black 5px 5px 10px;
 }
 
 .imgDisplay3{
@@ -70,6 +80,5 @@ body{
 
 .imageContainer{
     text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition: all ease-in-out 2s;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
